@@ -1,0 +1,13 @@
+# .NET build output
+bin/
+obj/
+nupkg/
+
+# Rider / VS
+.vs/
+.idea/
+*.user
+
+# OS
+.DS_Store
+Thumbs.db

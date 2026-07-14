@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Deving.Cli/Deving.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Deving.Cli.Tests/Deving.Cli.Tests.csproj" />
+  </Folder>
+</Solution>

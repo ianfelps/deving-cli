@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Deving.Cli</RootNamespace>
+    <AssemblyName>dev</AssemblyName>
+    <InvariantGlobalization>true</InvariantGlobalization>
+
+    <!-- Global tool -->
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>dev</ToolCommandName>
+    <PackageId>Deving.Cli</PackageId>
+    <Version>0.2.0</Version>
+    <Authors>ianfelps</Authors>
+    <Description>deving-cli — ferramenta de linha de comando com utilitários para o dia a dia de desenvolvimento (encoding, git, produtividade, scaffolding, http).</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageOutputPath>nupkg</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console.Cli" Version="0.55.0" />
+  </ItemGroup>
+
+</Project>
